@@ -4,7 +4,7 @@
 ##eclipse ide
 *.recommenders
 *.metadata
-
+.DS_STORE
 
 ### STS ###
 .apt_generated
