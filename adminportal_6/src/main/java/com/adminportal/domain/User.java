@@ -20,8 +20,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import com.adminportal.domain.security.Authority;
 import com.adminportal.domain.security.UserRole;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import net.minidev.json.annotate.JsonIgnore;
 
 @Entity
 public class User implements UserDetails{
