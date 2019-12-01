@@ -20,7 +20,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import com.bookstore.domain.security.Authority;
 import com.bookstore.domain.security.UserRole;
-import net.minidev.json.annotate.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 public class User implements UserDetails{
